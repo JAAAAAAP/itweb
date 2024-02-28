@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600;700;800&family=Mitr:wght@500&family=Poppins:wght@200;300;400;500;600;800&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(0, 0, 0);
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: 0(0, 0, 0.6, 14);
+    background-image: url("../img/bg-rcheva.png");
+    background-attachment: fixed;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: space-between;
+    background-color: #231F20;
+}
+nav ul {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 20px 50px;
+    margin: 0 5px;
+    border-radius: 10px;
+    color: white;
+}
+nav ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: 0.5s;
+}
+nav .logo img {
+    width: 100px;
+}
+nav .logo {
+    position: relative;
+    top: 4px;
+    height: 100px;
+
+}
+.conatiner {
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    min-height: 640px;
+    margin: 2rem 0;
+}
+.conatiner img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+}
+.home-text {
+    z-index: 100;
+    margin: 1rem 2rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.home-text h1 {
+    color: white;
+    font-size: 3rem;
+    margin: 0;
+}
+.home-text h3 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+}
+.swiper {
+    width: 95%;
+}
+.icon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+    margin: 2rem auto;
+    width: 50%;
+}
+.icon .icon-item {
+    text-align: center;
+    width: 100%;
+}
+.icon .icon-item a {
+    text-decoration: none;
+}
+.icon .icon-item i {
+    margin: 10px;
+    color: rgb(0, 0, 0);
+}
+.icon .icon-item h3 {
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
